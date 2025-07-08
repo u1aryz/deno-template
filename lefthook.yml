@@ -1,0 +1,10 @@
+pre-commit:
+  commands:
+    check:
+      run: deno run -A biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files} && deno check
+      stage_fixed: true
+
+commit-msg:
+  commands:
+    "lint commit message":
+      run: deno run -A commitlint --edit "$1"

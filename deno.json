@@ -1,0 +1,16 @@
+{
+	"nodeModulesDir": "auto",
+	"tasks": {
+		"dev": "deno run --watch src/main.ts",
+		"start": "deno run -A src/main.ts",
+		"test": "vitest",
+		"format": "biome check --write --unsafe"
+	},
+	"imports": {
+		"@commitlint/config-conventional": "npm:@commitlint/config-conventional@^19.8.1",
+		"@commitlint/types": "npm:@commitlint/types@^19.8.1",
+		"biome": "npm:@biomejs/biome@^2.1.0",
+		"commitlint": "npm:@commitlint/cli@^19.8.1",
+		"vitest": "npm:vitest@^3.2.4"
+	}
+}

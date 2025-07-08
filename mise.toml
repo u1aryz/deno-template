@@ -1,0 +1,19 @@
+[tools]
+deno = "2.4"
+lefthook = "1.11"
+
+[hooks]
+postinstall = ["deno install", "lefthook install"]
+
+[tasks.dev]
+run = "deno task dev"
+
+[tasks.start]
+run = "deno task start"
+
+[tasks.test]
+run = "deno task test"
+
+[tasks.lint]
+run = ["deno task format", "deno check"]
+alias = "format"
