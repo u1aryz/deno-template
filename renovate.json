@@ -5,7 +5,14 @@
 		"customManagers:biomeVersions",
 		"github>Omochice/renovate-config:deno"
 	],
-	"enabledManagers": [
-		"custom.regex"
+	"enabledManagers": ["custom.regex"],
+	"regexManagers": [
+		{
+			"fileMatch": ["(?:^|/)deno\\.jsonc?$"],
+			"matchStrings": [
+				"\"[^\"]+\"\\s*:\\s*\"npm:(?<depName>@?[^@\"]+)@\\^?(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+			],
+			"datasourceTemplate": "npm"
+		}
 	]
 }
