@@ -1,8 +1,8 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@biomejs/biome@2.1.0": "2.1.0",
-    "npm:@biomejs/biome@^2.1.0": "2.1.0",
+    "npm:@biomejs/biome@2.1.1": "2.1.1",
+    "npm:@biomejs/biome@^2.1.1": "2.1.1",
     "npm:@commitlint/cli@^19.8.1": "19.8.1",
     "npm:@commitlint/config-conventional@^19.8.1": "19.8.1",
     "npm:@commitlint/types@^19.8.1": "19.8.1",
@@ -21,17 +21,17 @@
     "@babel/helper-validator-identifier@7.27.1": {
       "integrity": "sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow=="
     },
-    "@biomejs/biome@2.1.0": {
-      "integrity": "sha512-K2UDr1dCiaOWegp4yQLMC4Evgl85ze1O7r+WxPeO7cNl0XrIcTshvdQGMDB23c/2afXz6RsOKYfWLErNbBbjmA==",
+    "@biomejs/biome@2.1.1": {
+      "integrity": "sha512-HFGYkxG714KzG+8tvtXCJ1t1qXQMzgWzfvQaUjxN6UeKv+KvMEuliInnbZLJm6DXFXwqVi6446EGI0sGBLIYng==",
       "optionalDependencies": [
-        "@biomejs/cli-darwin-arm64",
-        "@biomejs/cli-darwin-x64",
-        "@biomejs/cli-linux-arm64",
-        "@biomejs/cli-linux-arm64-musl",
-        "@biomejs/cli-linux-x64",
-        "@biomejs/cli-linux-x64-musl",
-        "@biomejs/cli-win32-arm64",
-        "@biomejs/cli-win32-x64"
+        "@biomejs/cli-darwin-arm64@2.1.1",
+        "@biomejs/cli-darwin-x64@2.1.1",
+        "@biomejs/cli-linux-arm64@2.1.1",
+        "@biomejs/cli-linux-arm64-musl@2.1.1",
+        "@biomejs/cli-linux-x64@2.1.1",
+        "@biomejs/cli-linux-x64-musl@2.1.1",
+        "@biomejs/cli-win32-arm64@2.1.1",
+        "@biomejs/cli-win32-x64@2.1.1"
       ],
       "bin": true
     },
@@ -40,8 +40,18 @@
       "os": ["darwin"],
       "cpu": ["arm64"]
     },
+    "@biomejs/cli-darwin-arm64@2.1.1": {
+      "integrity": "sha512-2Muinu5ok4tWxq4nu5l19el48cwCY/vzvI7Vjbkf3CYIQkjxZLyj0Ad37Jv2OtlXYaLvv+Sfu1hFeXt/JwRRXQ==",
+      "os": ["darwin"],
+      "cpu": ["arm64"]
+    },
     "@biomejs/cli-darwin-x64@2.1.0": {
       "integrity": "sha512-epLFRbMjYS/Cu9Kc5gM3wzUExsKj2Z0oxIiuxlI4ZterIqm19yvTOtJoqSec8gjUXOTNvPVoEIfSSXg37yepow==",
+      "os": ["darwin"],
+      "cpu": ["x64"]
+    },
+    "@biomejs/cli-darwin-x64@2.1.1": {
+      "integrity": "sha512-cC8HM5lrgKQXLAK+6Iz2FrYW5A62pAAX6KAnRlEyLb+Q3+Kr6ur/sSuoIacqlp1yvmjHJqjYfZjPvHWnqxoEIA==",
       "os": ["darwin"],
       "cpu": ["x64"]
     },
@@ -50,8 +60,18 @@
       "os": ["linux"],
       "cpu": ["arm64"]
     },
+    "@biomejs/cli-linux-arm64-musl@2.1.1": {
+      "integrity": "sha512-/7FBLnTswu4jgV9ttI3AMIdDGqVEPIZd8I5u2D4tfCoj8rl9dnjrEQbAIDlWhUXdyWlFSz8JypH3swU9h9P+2A==",
+      "os": ["linux"],
+      "cpu": ["arm64"]
+    },
     "@biomejs/cli-linux-arm64@2.1.0": {
       "integrity": "sha512-HZys1/TeIH5lagwtf9yKSO+gtA+cYMJW22ckDGuKt2xIvPu7VqgTNjJtTdRcetXe0+benlMMo+KFs3xL2b/2QA==",
+      "os": ["linux"],
+      "cpu": ["arm64"]
+    },
+    "@biomejs/cli-linux-arm64@2.1.1": {
+      "integrity": "sha512-tw4BEbhAUkWPe4WBr6IX04DJo+2jz5qpPzpW/SWvqMjb9QuHY8+J0M23V8EPY/zWU4IG8Ui0XESapR1CB49Q7g==",
       "os": ["linux"],
       "cpu": ["arm64"]
     },
@@ -60,8 +80,18 @@
       "os": ["linux"],
       "cpu": ["x64"]
     },
+    "@biomejs/cli-linux-x64-musl@2.1.1": {
+      "integrity": "sha512-kUu+loNI3OCD2c12cUt7M5yaaSjDnGIksZwKnueubX6c/HWUyi/0mPbTBHR49Me3F0KKjWiKM+ZOjsmC+lUt9g==",
+      "os": ["linux"],
+      "cpu": ["x64"]
+    },
     "@biomejs/cli-linux-x64@2.1.0": {
       "integrity": "sha512-nAVAP1ov/zcXMhNq3WCbYZmlU/YTF3ZT+LeXR1CEJnDgunPC/Srp7j1LWlrIx6wxNOCDOFow8fmyfC7c/BKLig==",
+      "os": ["linux"],
+      "cpu": ["x64"]
+    },
+    "@biomejs/cli-linux-x64@2.1.1": {
+      "integrity": "sha512-3WJ1GKjU7NzZb6RTbwLB59v9cTIlzjbiFLDB0z4376TkDqoNYilJaC37IomCr/aXwuU8QKkrYoHrgpSq5ffJ4Q==",
       "os": ["linux"],
       "cpu": ["x64"]
     },
@@ -70,8 +100,18 @@
       "os": ["win32"],
       "cpu": ["arm64"]
     },
+    "@biomejs/cli-win32-arm64@2.1.1": {
+      "integrity": "sha512-vEHK0v0oW+E6RUWLoxb2isI3rZo57OX9ZNyyGH701fZPj6Il0Rn1f5DMNyCmyflMwTnIQstEbs7n2BxYSqQx4Q==",
+      "os": ["win32"],
+      "cpu": ["arm64"]
+    },
     "@biomejs/cli-win32-x64@2.1.0": {
       "integrity": "sha512-pkp6jucyvE8DJSXXwSKs+Mxx1KXkMJ2d8GbBu4Lf0nAQHl40TZjjp1RuNEo9Z7NNXPQzbLACDtK6/vDalO2WRg==",
+      "os": ["win32"],
+      "cpu": ["x64"]
+    },
+    "@biomejs/cli-win32-x64@2.1.1": {
+      "integrity": "sha512-i2PKdn70kY++KEF/zkQFvQfX1e8SkA8hq4BgC+yE9dZqyLzB/XStY2MvwI3qswlRgnGpgncgqe0QYKVS1blksg==",
       "os": ["win32"],
       "cpu": ["x64"]
     },
@@ -1154,7 +1194,7 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:@biomejs/biome@^2.1.0",
+      "npm:@biomejs/biome@^2.1.1",
       "npm:@commitlint/cli@^19.8.1",
       "npm:@commitlint/config-conventional@^19.8.1",
       "npm:@commitlint/types@^19.8.1",
