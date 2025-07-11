@@ -5,5 +5,7 @@
 		"customManagers:biomeVersions",
 		"github>Omochice/renovate-config:deno"
 	],
-	"enabledManagers": ["regex"]
+	"enabledManagers": [
+		"custom.regex"
+	]
 }
