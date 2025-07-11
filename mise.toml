@@ -1,6 +1,6 @@
 [tools]
 deno = "2.4"
-lefthook = "1.11"
+lefthook = "1.12.1"
 
 [hooks]
 postinstall = ["deno install", "lefthook install"]
