@@ -1,9 +1,8 @@
 [tools]
 deno = "2.4"
-lefthook = "1.11"
 
 [hooks]
-postinstall = ["deno install", "lefthook install"]
+postinstall = ["deno run -A --allow-scripts npm:lefthook install"]
 
 [tasks.dev]
 run = "deno task dev"
