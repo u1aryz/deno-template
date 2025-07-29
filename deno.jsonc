@@ -9,7 +9,7 @@
 	"imports": {
 		"@commitlint/config-conventional": "npm:@commitlint/config-conventional@^19.8.1",
 		"@commitlint/types": "npm:@commitlint/types@^19.8.1",
-		"biome": "npm:@biomejs/biome@^2.1.1",
+		"biome": "npm:@biomejs/biome@^2.1.2",
 		"commitlint": "npm:@commitlint/cli@^19.8.1",
 		"vitest": "npm:vitest@^3.2.4"
 	}
